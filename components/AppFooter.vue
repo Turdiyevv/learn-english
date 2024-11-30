@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div style="background-color: cadetblue; color: white">
+  <div>
     <h1>App footer</h1>
   </div>
 </template>

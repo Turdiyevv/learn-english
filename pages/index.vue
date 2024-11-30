@@ -4,9 +4,11 @@
 <template>
  <div>
    <h1>Welcome to the homepage</h1>
+   <div>
     <AppAlert>
       This is an auto-imported component
     </AppAlert>
+   </div>
  </div>
 </template>
 

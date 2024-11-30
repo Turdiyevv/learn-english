@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <span style="color: red; font-weight: bold;">
-    <slot />
+  <span class="border rounded-xl p-3 bg-amber-400 text-white">
+    <slot/>
   </span>
 </template>
 
