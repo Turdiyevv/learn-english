@@ -15,11 +15,11 @@ const isVisible = ref(false);
       </div>
     </div>
     <transition :duration="{ enter: 500, leave: 500 }" name="nested">
-      <div v-show="isVisible" class="absolute top-full left-0 w-full p-3 bg-gray-300">
-        <div class="bg-gray-400 text-white p-2 m-3">test</div>
-        <div class="bg-gray-400 text-white p-2 m-3">test</div>
-        <div class="bg-gray-400 text-white p-2 m-3">test</div>
-        <div class="bg-gray-400 text-white p-2 m-3">test</div>
+      <div v-show="isVisible" class="absolute top-full left-0 w-full py-3 backdrop-blur-md">
+        <div class="bg-blue-600 active:bg-blue-500 rounded-xl h-10 text-white p-2 m-3">test</div>
+        <div class="bg-blue-600 active:bg-blue-500 rounded-xl h-10 text-white p-2 m-3">test</div>
+        <div class="bg-blue-600 active:bg-blue-500 rounded-xl h-10 text-white p-2 m-3">test</div>
+          <button class="hover:bg-blue-600 h-10 border hover:text-white px-3 rounded-xl m-3">English</button>
       </div>
     </transition>
   </div>

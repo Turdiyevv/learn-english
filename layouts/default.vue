@@ -5,7 +5,9 @@
 <template>
   <div class="">
     <AppHeader />
-    <slot />
+    <div class="bg-gray-100">
+      <slot />
+    </div>
     <AppFooter />
   </div>
 </template>
