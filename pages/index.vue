@@ -1,17 +1,22 @@
 <script setup lang="ts">
+import GetStarted from "~/pages/singlComponents/getStarted.vue";
+import Flags from "~/pages/singlComponents/flags.vue";
+import Excellence from "~/pages/singlComponents/excellence.vue";
+import Talkpal from "~/pages/singlComponents/talkpal.vue";
+import TalkpalPremium from "~/pages/singlComponents/talkpal-premium.vue";
+import Learn from "~/pages/singlComponents/learn.vue";
+import FAQ from "~/pages/singlComponents/FAQ.vue";
 </script>
 
 <template>
  <div class="border border-white max-w-screen-xl min-h-screen mx-auto">
-   <div class="flex flex-wrap items-center">
-     <div class="md:w-1/2 border border-gray-500 p-2">
-       <h3>Talkpal is a GPT-powered AI language teacher. Boost your speaking, listening, writing, and pronunciation skills – Learn 5x Faster!</h3>
-        <button class="bg-blue-700 hover:bg-blue-600 rounded-xl h-10 px-3 text-white">get started</button>
-     </div>
-     <div class="md:w-1/2 border border-gray-500 p-2">
-       <div class="h-32 w-32 border m-2">pic</div>
-     </div>
-   </div>
+   <get-started/>
+   <flags/>
+   <excellence/>
+   <talkpal/>
+   <talkpal-premium/>
+   <learn/>
+   <f-a-q/>
  </div>
 </template>
 
