@@ -40,7 +40,7 @@ const flags = [
    <h2>Which language do you want to learn?</h2>
    <div class="flex flex-wrap justify-center gap-14 p-5">
      <div v-for="x in flags" class="cursor-pointer flex flex-wrap items-center justify-center w-[90px] h-[90px] rounded-[20px] ">
-      <img :src="x.src" :alt="x.name" class="border rounded-[20px] hover:w-[90px] hover:h-[90px] transition-all duration-500 w-[78px] h-[78px]">
+      <img :src="x.src" :alt="x.name" class="border rounded-[20px] hover:w-[90px] hover:h-[90px] transition-all duration-480 w-[78px] h-[78px]">
       <div>{{x.name}}</div>
      </div>
    </div>

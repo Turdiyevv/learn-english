@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import GetStarted from "~/pages/singlComponents/getStarted.vue";
 import Flags from "~/pages/singlComponents/flags.vue";
-import Excellence from "~/pages/singlComponents/excellence.vue";
+import Excellence from "~/pages/singlComponents/excellence/excellence.vue";
 import Talkpal from "~/pages/singlComponents/talkpal.vue";
 import TalkpalPremium from "~/pages/singlComponents/talkpal-premium.vue";
 import Learn from "~/pages/singlComponents/learn.vue";
